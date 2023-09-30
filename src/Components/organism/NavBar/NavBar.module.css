@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  color: black;
+  background-color: rgb(66, 66, 195);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.leftside Button {
+  color: white;
+}
+
+.navbar Button {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.rightside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}

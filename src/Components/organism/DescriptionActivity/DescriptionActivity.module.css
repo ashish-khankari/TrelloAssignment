@@ -1,0 +1,32 @@
+.activityContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.details {
+  width: 20%;
+  background-color: #e4e6ea;
+  padding: 0.5rem 0.3rem;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,30 @@
+.titleContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.titleFirst {
+  display: flex;
+  gap: 1rem;
+}
+
+.titleName {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.titleName p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.listName {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+  text-align: left;
+  margin-top: 0.4rem;
+}
